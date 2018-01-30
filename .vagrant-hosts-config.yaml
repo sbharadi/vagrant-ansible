@@ -1,0 +1,33 @@
+---
+hosts:
+
+# FOO hosts
+  foo01:
+    ip: 172.16.40.11
+    memory: 256
+  foo02:
+    ip: 172.16.40.12
+    memory: 256
+  foo03:
+    ip: 172.16.40.13
+    memory: 256
+
+# WOO hosts
+  woo01:
+    ip: 172.16.30.11
+    memory: 256
+  woo02:
+    ip: 172.16.30.12
+    memory: 256
+  woo03:
+    ip: 172.16.30.13
+    memory: 256
+  woo04:
+    ip: 172.16.30.14
+    memory: 256
+
+# ANSIBLE Master
+# NOTE: must be the last one to init
+  master:
+    ip: 172.16.20.10
+    memory: 256

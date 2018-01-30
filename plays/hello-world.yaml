@@ -1,0 +1,9 @@
+---
+- name: "Simple Hello World Play"
+  hosts:
+     - foo
+  tags:
+    - hello-world
+  become: yes
+  roles:
+    - { role: 'roles/hello-world' }
